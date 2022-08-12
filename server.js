@@ -15,6 +15,7 @@ const obj = {
 
 app.get('/todos/1', (req, res) => {
   res.setHeader('Content-Type', 'application/json');
+  res.set('Access-Control-Allow-Origin', '*');
   res.send(JSON.stringify(obj))
 })
 
