@@ -1,0 +1,5 @@
+
+> node-api-devcontainer@1.0.0 start
+> node server.js
+
+App is listening on port 8080
